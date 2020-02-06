@@ -1,5 +1,6 @@
 .cpcache
 target
 .nrepl-port
+.#cdk.json
 cdk.out/
 classes/

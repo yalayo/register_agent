@@ -1,0 +1,19 @@
+[
+ {:db/ident :agent/name
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Agent's name"}
+
+ {:db/ident :agent/address
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Agent's address"}
+
+ {:db/ident :agent/phone-number
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Agent's phone number"}
+ ]
